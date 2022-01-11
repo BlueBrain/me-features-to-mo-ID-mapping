@@ -1,0 +1,15 @@
+/downloader/BBP/
+/downloader/Gouwens_2019/
+/downloader/2020-07-08_mouse_file_manifest.csv
+/downloader/20200711_patchseq_metadata_mouse.csv
+/downloader/Gouwens_2020_downloader.py
+/feature_extraction/BBP_efeatures/
+/feature_extraction/Gouwens_efeatures/mapping
+/feature_extraction/BBP_morpho(moments_NeuroM)_features_no_norm.csv
+/feature_extraction/BBP_morpho(moments_NeuroM)_features_no_realign.csv
+/feature_extraction/Gouw_morpho(moments_NeuroM)_features_no_norm.csv
+/feature_extraction/Gouw_morpho(moments_NeuroM)_features_no_realign.csv
+/feature_selection/figures/
+/feature_selection/filtered_datasets/
+/feature_extraction/Gouwens_efeatures/
+/mapping/validation_results/
