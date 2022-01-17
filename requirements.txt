@@ -1,6 +1,5 @@
 matplotlib>=3.3.4
 numpy>=1.18.5
-nexusforge>=0.6.3
 pandas>=0.25.3
 scipy>=1.5.4
 h5py>=2.10.0
@@ -8,8 +7,5 @@ plotly>=5.4.0
 scikit-learn>=1.0.1
 kaleido>=0.2.1
 
-allensdk>=2.13.1
-openpyxl==3.0.9
-h5py==2.10.0
 
 
