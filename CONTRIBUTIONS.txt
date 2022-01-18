@@ -7,9 +7,9 @@ Found a bug?
 ------------
 
 If you find a bug in the source code or in using the theme, you can
-`open an issue <https://github.com/BlueBrain/sphinx-bluebrain-theme/issues>`__ on GitHub.
+`open an issue <https://github.com/BlueBrain/me-features-to-mo-ID-mapping/issues>`__ on GitHub.
 Even better, you can
-`submit a pull request <https://github.com/BlueBrain/sphinx-bluebrain-theme/pulls>`__
+`submit a pull request <https://github.com/BlueBrain/me-features-to-mo-ID-mapping/pulls>`__
 with a fix.
 
 Submission guidelines
