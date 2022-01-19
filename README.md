@@ -1,8 +1,8 @@
 # BBP-me-type-to-mol-ID
 
 ## Description:
-This a repository containing configuration code that use me-types-mapper to reproduce results from Roussel et al., 
-2021 (https://www.biorxiv.org/content/10.1101/2021.11.24.469815v1)
+This is a repository containing configuration code that use me-types-mapper to reproduce results from *Roussel et al., 
+2021* (https://www.biorxiv.org/content/10.1101/2021.11.24.469815v1)
 
 ## Installation:
 
