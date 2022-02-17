@@ -48,39 +48,74 @@ def plot_PC(ax, X_plt, labels_dataset):
                 "s", c=clr, markersize=10, alpha=0.75)
     return ax
 
+def Combine_data_with_coponents_projections(X_ref, X_test):
+    """merge both dataset."""
+
+    from sklearn.decomposition import PCA
+
+    X_ = pd.concat([X_ref, X_test], axis=0)
+    pca_ = PCA(n_components=np.min([len(X_.columns), len(X_)]))
+    res_df = pd.DataFrame(pca_.fit_transform(X_.values), index=X_.index)
+    components_df = pd.DataFrame(pca_.components_, columns=X_.columns)
+
+    return res_df, components_df, pca_.explained_variance_ratio_
 
 def prepare_data_matrices(X_ephys_Gouwens_no_norm, X_morpho_Gouwens_no_norm, X_ephys_Gouwens_raw, X_morpho_Gouwens_raw,
                           X_ephys_Gouwens_z, X_morpho_Gouwens_z,
                           X_ephys_BBP_no_norm, X_morpho_BBP_no_norm, X_ephys_BBP_raw, X_morpho_BBP_raw,
                           X_ephys_BBP_z, X_morpho_BBP_z):
 
-    Xe_no_norm_pca = Combine_data(X_ephys_Gouwens_no_norm, X_ephys_BBP_no_norm)
-    Xm_no_norm_pca = Combine_data(X_morpho_Gouwens_no_norm, X_morpho_BBP_no_norm)
+    (Xe_no_norm_pca,
+     e_comp_no_norm,
+     e_ratio_no_norm) = Combine_data_with_coponents_projections(X_ephys_Gouwens_no_norm, X_ephys_BBP_no_norm)
+    (Xm_no_norm_pca,
+     m_comp_no_norm,
+     m_ratio_no_norm) = Combine_data_with_coponents_projections(X_morpho_Gouwens_no_norm, X_morpho_BBP_no_norm)
+
+    pca_no_norm = PCA()
     Xme_no_norm = pd.concat([Xe_no_norm_pca, Xm_no_norm_pca], axis=1)
-    Xme_no_norm_pca = pd.DataFrame(PCA().fit_transform(Xme_no_norm.values), index=Xme_no_norm.index)
+    Xme_no_norm_pca = pd.DataFrame(pca_no_norm.fit_transform(Xme_no_norm.values), index=Xme_no_norm.index)
+    me_comp_no_norm = pca_no_norm.components_
+    me_ratio_no_norm = pca_no_norm.explained_variance_ratio_
 
     Xe_raw = pd.concat([X_ephys_Gouwens_raw, X_ephys_BBP_raw], axis=0)
     Xm_raw = pd.concat([X_morpho_Gouwens_raw, X_morpho_BBP_raw], axis=0)
     Xme_raw = pd.concat([Xe_raw, Xm_raw], axis=1)
 
-    Xe_pca = Combine_data(X_ephys_Gouwens_raw, X_ephys_BBP_raw)
-    Xm_pca = Combine_data(X_morpho_Gouwens_raw, X_morpho_BBP_raw)
-    Xme_pca = pd.DataFrame(PCA().fit_transform(Xme_raw.values), index=Xme_raw.index)
+    (Xe_pca, e_comp, e_ratio) = Combine_data_with_coponents_projections(X_ephys_Gouwens_raw, X_ephys_BBP_raw)
+    (Xm_pca, m_comp, m_ratio) = Combine_data_with_coponents_projections(X_morpho_Gouwens_raw, X_morpho_BBP_raw)
+
+    pca_vanilla = PCA()
+    Xme_pca = pd.DataFrame(pca_vanilla.fit_transform(Xme_raw.values), index=Xme_raw.index)
+    me_comp = pca_vanilla.components_
+    me_ratio = pca_vanilla.explained_variance_ratio_
 
     Xe_z = pd.concat([X_ephys_Gouwens_z, X_ephys_BBP_z], axis=0)
     Xm_z = pd.concat([X_morpho_Gouwens_z, X_morpho_BBP_z], axis=0)
     Xme_z = pd.concat([Xe_z, Xm_z], axis=1)
 
-    Xe_zpca = Combine_data(X_ephys_Gouwens_z, X_ephys_BBP_z)
-    Xm_zpca = Combine_data(X_morpho_Gouwens_z, X_morpho_BBP_z)
-    Xme_zpca = pd.DataFrame(PCA().fit_transform(Xme_z.values), index=Xme_z.index)
+    (Xe_zpca, e_comp_z, e_ratio_z) = Combine_data_with_coponents_projections(X_ephys_Gouwens_z, X_ephys_BBP_z)
+    (Xm_zpca, m_comp, m_ratio) = Combine_data_with_coponents_projections(X_morpho_Gouwens_z, X_morpho_BBP_z)
+
+    pca_z = PCA()
+    Xme_zpca = pd.DataFrame(pca_z.fit_transform(Xme_z.values), index=Xme_z.index)
+    me_comp_z = pca_z.components_
+    me_ratio_z = pca_z.explained_variance_ratio_
 
     data = [[Xe_no_norm_pca, Xm_no_norm_pca, Xme_no_norm_pca],
             [Xe_pca, Xm_pca, Xme_pca],
-            [Xe_zpca, Xm_zpca, Xme_zpca],
+            [Xe_zpca, Xm_zpca, Xme_zpca]
             ]
+    component_projections = [[e_comp_no_norm, m_comp_no_norm, me_comp_no_norm],
+                             [e_comp, m_comp, me_comp],
+                             [e_comp_z, m_comp_z, me_comp_z]
+                             ]
+    explained_var_ratios = [[e_ratio_no_norm, m_ratio_no_norm, me_ratio_no_norm],
+                             [e_ratio, m_ratio, me_ratio],
+                             [e_ratio_z, m_ratio_z, me_ratio_z]
+                            ]
 
-    return data
+    return data, component_projections, explained_var_ratios
 
 
 if __name__ == "__main__":
@@ -130,10 +165,12 @@ if __name__ == "__main__":
     X_ephys_BBP_raw, X_morpho_BBP_raw = Split_raw(BBP_data, msk_ephys, msk_morpho)
     X_ephys_BBP_z, X_morpho_BBP_z = Z_scale(BBP_data, msk_ephys, msk_morpho)
 
-    data = prepare_data_matrices(X_ephys_Gouwens_no_norm, X_morpho_Gouwens_no_norm, X_ephys_Gouwens_raw, X_morpho_Gouwens_raw,
-                                 X_ephys_Gouwens_z, X_morpho_Gouwens_z,
-                                 X_ephys_BBP_no_norm, X_morpho_BBP_no_norm, X_ephys_BBP_raw, X_morpho_BBP_raw,
-                                 X_ephys_BBP_z, X_morpho_BBP_z)
+    data, components, var_ratio = prepare_data_matrices(
+        X_ephys_Gouwens_no_norm, X_morpho_Gouwens_no_norm, X_ephys_Gouwens_raw, X_morpho_Gouwens_raw,
+        X_ephys_Gouwens_z, X_morpho_Gouwens_z,
+        X_ephys_BBP_no_norm, X_morpho_BBP_no_norm, X_ephys_BBP_raw, X_morpho_BBP_raw,
+        X_ephys_BBP_z, X_morpho_BBP_z
+    )
 
     # R-values
     labels_dataset = np.asarray(
@@ -196,3 +233,7 @@ if __name__ == "__main__":
                 ax[i, j].set_ylabel('PC_2', fontsize=16)
     plt.savefig("./validation_results/dataset_overlap_figure.pdf", format="pdf")
 
+for comp_, title in zip(components, ["no_norm_pca", "pca", "zpca"]):
+    comp_[0].to_csv("./validation_results/PC_projection_on_e_features_" + title + ".csv")
+    comp_[1].to_csv("./validation_results/PC_projection_on_m_features_" + title + ".csv")
+    comp_[2].to_csv("./validation_results/PC_projection_on_me_features_" + title + ".csv")
