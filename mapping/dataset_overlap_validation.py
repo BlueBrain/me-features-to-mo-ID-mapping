@@ -95,7 +95,7 @@ def prepare_data_matrices(X_ephys_Gouwens_no_norm, X_morpho_Gouwens_no_norm, X_e
     Xme_z = pd.concat([Xe_z, Xm_z], axis=1)
 
     (Xe_zpca, e_comp_z, e_ratio_z) = Combine_data_with_coponents_projections(X_ephys_Gouwens_z, X_ephys_BBP_z)
-    (Xm_zpca, m_comp, m_ratio) = Combine_data_with_coponents_projections(X_morpho_Gouwens_z, X_morpho_BBP_z)
+    (Xm_zpca, m_comp_z, m_ratio_z) = Combine_data_with_coponents_projections(X_morpho_Gouwens_z, X_morpho_BBP_z)
 
     pca_z = PCA()
     Xme_zpca = pd.DataFrame(pca_z.fit_transform(Xme_z.values), index=Xme_z.index)
