@@ -75,7 +75,7 @@ def prepare_data_matrices(X_ephys_Gouwens_no_norm, X_morpho_Gouwens_no_norm, X_e
     pca_no_norm = PCA()
     Xme_no_norm = pd.concat([Xe_no_norm_pca, Xm_no_norm_pca], axis=1)
     Xme_no_norm_pca = pd.DataFrame(pca_no_norm.fit_transform(Xme_no_norm.values), index=Xme_no_norm.index)
-    me_comp_no_norm = pca_no_norm.components_
+    me_comp_no_norm = pd.DataFrame(pca_no_norm.components_, columns=Xme_no_norm_pca.columns)
     me_ratio_no_norm = pca_no_norm.explained_variance_ratio_
 
     Xe_raw = pd.concat([X_ephys_Gouwens_raw, X_ephys_BBP_raw], axis=0)
@@ -87,7 +87,7 @@ def prepare_data_matrices(X_ephys_Gouwens_no_norm, X_morpho_Gouwens_no_norm, X_e
 
     pca_vanilla = PCA()
     Xme_pca = pd.DataFrame(pca_vanilla.fit_transform(Xme_raw.values), index=Xme_raw.index)
-    me_comp = pca_vanilla.components_
+    me_comp = pd.DataFrame(pca_vanilla.components_, columns=Xme_pca.columns)
     me_ratio = pca_vanilla.explained_variance_ratio_
 
     Xe_z = pd.concat([X_ephys_Gouwens_z, X_ephys_BBP_z], axis=0)
@@ -99,7 +99,7 @@ def prepare_data_matrices(X_ephys_Gouwens_no_norm, X_morpho_Gouwens_no_norm, X_e
 
     pca_z = PCA()
     Xme_zpca = pd.DataFrame(pca_z.fit_transform(Xme_z.values), index=Xme_z.index)
-    me_comp_z = pca_z.components_
+    me_comp_z = pd.DataFrame(pca_z.components_, columns=Xme_zpca.columns)
     me_ratio_z = pca_z.explained_variance_ratio_
 
     data = [[Xe_no_norm_pca, Xm_no_norm_pca, Xme_no_norm_pca],
