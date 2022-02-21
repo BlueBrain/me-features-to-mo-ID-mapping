@@ -116,7 +116,7 @@ def select_me_features(BBP_etype_data, BBP_etype_data_std, BBP_morpho_data, BBP_
     Gouw_id_list = Gouw_me_data.index.tolist()
     print("Gouwens data unfiltered ", Gouw_me_data)
 
-    break
+    break()
 
 
     # prepare BBP_dataset
