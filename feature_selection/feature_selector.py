@@ -107,10 +107,10 @@ def select_me_features(BBP_etype_data, BBP_etype_data_std, BBP_morpho_data, BBP_
 
     # prepare Gouwens_dataset
     Gouw_e_df = convert_edict_to_dataframe(Gouw_e_dict)
+    print("Gouwens Gouwens ephys ", Gouw_e_df)
     Gouw_me_data = pd.concat([Gouw_e_df, Gouw_morpho_data], axis=1)
     dict_rename = {idx: int(idx) for idx in Gouw_me_data.index}
     Gouw_me_data = Gouw_me_data.rename(dict_rename)
-    print("Gouwens data unfiltered ", Gouw_me_data)
     # Gouw_id_list = Gouw_me_data.index.tolist()
     Gouw_me_data = Gouw_me_data.dropna(axis=0, how='all')
     Gouw_id_list = Gouw_me_data.index.tolist()
