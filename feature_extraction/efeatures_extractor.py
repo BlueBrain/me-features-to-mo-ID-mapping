@@ -178,7 +178,8 @@ def prepare_Gouw_config_file(target_amp_list, tol, path="../downloader/Gouwens_2
                           'protocols_threshold': ['Long Square']},
               'targets': target_list,
               'meta_data': meta_data
-             }
+              }
+
     return config
 
 def make_dict_BBP(extractor, target_list, tolerance):

@@ -114,7 +114,7 @@ def extract_features_BBP(path_list, path_norm, meta_data, dict_layer_sup, nm_mor
 
 
 if __name__ == "__main__":
-    nm_morpho_features = pd.read_csv('./NeuroM_morpho_features.csv', index_col=0)['mfeatures'].values
+    nm_morpho_features = pd.read_csv('NeuroM_morpho_features.csv', index_col=0)['mfeatures'].values
 
     dict_moment_names = {}
     i = 0
