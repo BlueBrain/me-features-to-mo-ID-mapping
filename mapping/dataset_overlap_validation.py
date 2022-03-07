@@ -73,7 +73,9 @@ def prepare_data_matrices(X_ephys_Gouwens_no_norm, X_morpho_Gouwens_no_norm, X_e
      m_ratio_no_norm) = Combine_data_with_coponents_projections(X_morpho_Gouwens_no_norm, X_morpho_BBP_no_norm)
 
     pca_no_norm = PCA()
-    Xme_no_norm = pd.concat([Xe_no_norm_pca, Xm_no_norm_pca], axis=1)
+    Xe_no_norm = pd.concat([X_ephys_Gouwens_no_norm, X_ephys_BBP_no_norm], axis=0)
+    Xm_no_norm = pd.concat([X_morpho_Gouwens_no_norm, X_morpho_BBP_no_norm], axis=0)
+    Xme_no_norm = pd.concat([Xe_no_norm, Xm_no_norm], axis=1)
     Xme_no_norm_pca = pd.DataFrame(pca_no_norm.fit_transform(Xme_no_norm.values), index=Xme_no_norm.index)
     me_comp_no_norm = pd.DataFrame(pca_no_norm.components_, columns=Xme_no_norm_pca.columns)
     me_ratio_no_norm = pca_no_norm.explained_variance_ratio_
