@@ -224,7 +224,7 @@ if __name__ == "__main__":
                 ax2.bar(1. + 1., R_values_res.T['Z-scored + PCA'][j], color='grey')
                 ax2.set_ylim([0., 1.])
                 ax2.set_xticks([.0, 1., 2.])
-                ax2.set_xticklabels(['not norm.', 'morpho. scal.', 'Z-scaled'], fontsize=12, rotation=30)
+                ax2.set_xticklabels(['not norm.', 'm-scal.', 'Z-scaled'], fontsize=12, rotation=30)
                 ax2.set_title('R-values', fontsize=14)
 
             if (i, j) == (0, 0):
