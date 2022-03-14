@@ -22,7 +22,12 @@ Go into `downloader` directory
 ####  Morphologies and electrophysiological recording from Gouwens et al., 2019:
 Due to open source license issues, the python script for downloading AIBS data from Gouwens et al. (2019) could not be 
 included.
-Please refer to `allensdk` from Allen Institute for Brain Science to download data from the Gouwens et al paper.
+Please refer to `allensdk` from Allen Institute for Brain Science to download data from the Gouwens et al paper. 
+Clear instructions on how to download morphological and electrophysiological data are provided in the `allensdk`
+documentation:
+Electrophysiology: https://allensdk.readthedocs.io/en/latest/_static/examples/nb/cell_types.html#Cell-Types-Database
+Morphologies: https://allensdk.readthedocs.io/en/latest/_static/examples/nb/cell_types.html#Cell-Morphology-Reconstructions
+The cell ids used in the manuscript are provided in the `downloader/41593_2019_417_MOESM5_ESM.xlsx` file.
 Data should be stored in the `downloader` directory in a new folder named after the dataset name (i.e. `Gouwens_2019`)
 and organized  into two sub-directories: one named as `ephys_traces` containing the raw traces in nwb format and another
 named `morphologies` containing the morphology reconstruction in swc format.
