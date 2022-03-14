@@ -16,8 +16,9 @@ pip install git+https://github.com/BlueBrain/BluePyEfe@da783256a4212b14d4f152687
 ```
 
 ## How to use:
+Step 1 and 2 are optional as we made the extracted features available in the `feature_extraction folder`.
 
-### Step 1: Download the data
+### Step 1: Download the data (optional)
 Go into `downloader` directory
 ####  Morphologies and electrophysiological recording from Gouwens et al., 2019:
 Due to open source license issues, the python script for downloading AIBS data from Gouwens et al. (2019) could not be 
@@ -36,7 +37,7 @@ Downloading of AIBS data should be done in a dedicated virtual environment.
 Create a dedicated virtual environment for downloading BBP data. Install dependencies using
 `pip install -r requirements_BBP_dl.txt`. Finally, run `python BBP_downloader.py`.
 
-### Step 2: Extract features
+### Step 2: Extract features (optional)
 Go into the `feature_extraction` directory and run first `python efeatures_extractor.py` 
 and then `python mfeatures_extractor.py`.
 
