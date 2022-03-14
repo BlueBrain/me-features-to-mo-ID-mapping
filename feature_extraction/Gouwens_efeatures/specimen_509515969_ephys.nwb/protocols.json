@@ -1,0 +1,62 @@
+{
+  "step_80": {
+    "holding": {
+      "delay": 0.0,
+      "amp": 0.0,
+      "duration": 8020.0,
+      "totduration": 8020.0
+    },
+    "step": {
+      "delay": 1000.0,
+      "amp": 0.22333333392937976,
+      "thresh_perc": 82.71605544674641,
+      "duration": 1000.0,
+      "totduration": 8020.0
+    }
+  },
+  "step_100": {
+    "holding": {
+      "delay": 0.0,
+      "amp": 0.0,
+      "duration": 8020.0,
+      "totduration": 8020.0
+    },
+    "step": {
+      "delay": 1000.0,
+      "amp": 0.26999999582767487,
+      "thresh_perc": 100.00000551894898,
+      "duration": 1000.0,
+      "totduration": 8020.0
+    }
+  },
+  "step_125": {
+    "holding": {
+      "delay": 0.0,
+      "amp": 0.0,
+      "duration": 8020.0,
+      "totduration": 8020.0
+    },
+    "step": {
+      "delay": 1000.0,
+      "amp": 0.3233333329359691,
+      "thresh_perc": 119.75309473224415,
+      "duration": 1000.0,
+      "totduration": 8020.0
+    }
+  },
+  "step_150": {
+    "holding": {
+      "delay": 0.0,
+      "amp": 0.0,
+      "duration": 8020.0,
+      "totduration": 8020.0
+    },
+    "step": {
+      "delay": 1000.0,
+      "amp": 0.39000000059604645,
+      "thresh_perc": 144.44445486912585,
+      "duration": 1000.0,
+      "totduration": 8020.0
+    }
+  }
+}

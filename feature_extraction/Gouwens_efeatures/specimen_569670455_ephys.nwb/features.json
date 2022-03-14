@@ -1,0 +1,1494 @@
+{
+  "step_80": {
+    "soma": [
+      {
+        "feature": "voltage_base",
+        "val": [
+          -74.68306640624888,
+          0.001
+        ],
+        "n": 1
+      },
+      {
+        "feature": "inv_time_to_first_spike",
+        "val": [
+          0.0,
+          0.001
+        ],
+        "n": 1
+      },
+      {
+        "feature": "inv_first_ISI",
+        "val": [
+          0.0,
+          0.001
+        ],
+        "n": 1
+      },
+      {
+        "feature": "inv_second_ISI",
+        "val": [
+          0.0,
+          0.001
+        ],
+        "n": 1
+      },
+      {
+        "feature": "inv_third_ISI",
+        "val": [
+          0.0,
+          0.001
+        ],
+        "n": 1
+      },
+      {
+        "feature": "inv_fourth_ISI",
+        "val": [
+          0.0,
+          0.001
+        ],
+        "n": 1
+      },
+      {
+        "feature": "inv_fifth_ISI",
+        "val": [
+          0.0,
+          0.001
+        ],
+        "n": 1
+      },
+      {
+        "feature": "decay_time_constant_after_stim",
+        "val": [
+          5210.413327575418,
+          0.001
+        ],
+        "n": 1
+      }
+    ]
+  },
+  "step_100": {
+    "soma": [
+      {
+        "feature": "AHP_depth",
+        "val": [
+          3.084171875000635,
+          0.001
+        ],
+        "n": 1
+      },
+      {
+        "feature": "AP1_amp",
+        "val": [
+          66.56250189354813,
+          0.001
+        ],
+        "n": 1
+      },
+      {
+        "feature": "AHP_time_from_peak",
+        "val": [
+          1.2250000000044565,
+          0.001
+        ],
+        "n": 1
+      },
+      {
+        "feature": "AP_amplitude",
+        "val": [
+          66.56250189354813,
+          0.001
+        ],
+        "n": 1
+      },
+      {
+        "feature": "AP_duration_half_width",
+        "val": [
+          0.47500000000172804,
+          0.001
+        ],
+        "n": 1
+      },
+      {
+        "feature": "AP_begin_width",
+        "val": [
+          1.0500000000038199,
+          0.001
+        ],
+        "n": 1
+      },
+      {
+        "feature": "mean_frequency",
+        "val": [
+          8.658008658032998,
+          0.001
+        ],
+        "n": 1
+      },
+      {
+        "feature": "voltage_base",
+        "val": [
+          -73.84038281250122,
+          0.6937109375005832
+        ],
+        "n": 2
+      },
+      {
+        "feature": "inv_time_to_first_spike",
+        "val": [
+          4.329004329016499,
+          4.329004329016499
+        ],
+        "n": 2
+      },
+      {
+        "feature": "inv_first_ISI",
+        "val": [
+          0.0,
+          0.001
+        ],
+        "n": 2
+      },
+      {
+        "feature": "inv_second_ISI",
+        "val": [
+          0.0,
+          0.001
+        ],
+        "n": 2
+      },
+      {
+        "feature": "inv_third_ISI",
+        "val": [
+          0.0,
+          0.001
+        ],
+        "n": 2
+      },
+      {
+        "feature": "inv_fourth_ISI",
+        "val": [
+          0.0,
+          0.001
+        ],
+        "n": 2
+      },
+      {
+        "feature": "inv_fifth_ISI",
+        "val": [
+          0.0,
+          0.001
+        ],
+        "n": 2
+      },
+      {
+        "feature": "APlast_amp",
+        "val": [
+          66.56250189354813,
+          0.001
+        ],
+        "n": 1
+      },
+      {
+        "feature": "AP_begin_voltage",
+        "val": [
+          -55.06250000173459,
+          0.001
+        ],
+        "n": 1
+      },
+      {
+        "feature": "decay_time_constant_after_stim",
+        "val": [
+          3013.9925502896394,
+          204.4676737924808
+        ],
+        "n": 2
+      },
+      {
+        "feature": "mean_AP_amplitude",
+        "val": [
+          66.56250189354813,
+          0.001
+        ],
+        "n": 1
+      }
+    ]
+  },
+  "step_125": {
+    "soma": [
+      {
+        "feature": "voltage_base",
+        "val": [
+          -74.44175000000037,
+          0.001
+        ],
+        "n": 1
+      },
+      {
+        "feature": "inv_time_to_first_spike",
+        "val": [
+          0.0,
+          0.001
+        ],
+        "n": 1
+      },
+      {
+        "feature": "inv_first_ISI",
+        "val": [
+          0.0,
+          0.001
+        ],
+        "n": 1
+      },
+      {
+        "feature": "inv_second_ISI",
+        "val": [
+          0.0,
+          0.001
+        ],
+        "n": 1
+      },
+      {
+        "feature": "inv_third_ISI",
+        "val": [
+          0.0,
+          0.001
+        ],
+        "n": 1
+      },
+      {
+        "feature": "inv_fourth_ISI",
+        "val": [
+          0.0,
+          0.001
+        ],
+        "n": 1
+      },
+      {
+        "feature": "inv_fifth_ISI",
+        "val": [
+          0.0,
+          0.001
+        ],
+        "n": 1
+      },
+      {
+        "feature": "decay_time_constant_after_stim",
+        "val": [
+          482.1898853754195,
+          0.001
+        ],
+        "n": 1
+      }
+    ]
+  },
+  "step_150": {
+    "soma": [
+      {
+        "feature": "AHP_depth",
+        "val": [
+          7.29691406287981,
+          0.001
+        ],
+        "n": 1
+      },
+      {
+        "feature": "AP1_amp",
+        "val": [
+          70.56250184980887,
+          0.001
+        ],
+        "n": 1
+      },
+      {
+        "feature": "AP2_amp",
+        "val": [
+          64.97656535316528,
+          0.001
+        ],
+        "n": 1
+      },
+      {
+        "feature": "AHP_time_from_peak",
+        "val": [
+          1.2850000000046748,
+          0.001
+        ],
+        "n": 1
+      },
+      {
+        "feature": "AP_amplitude",
+        "val": [
+          57.907816275515245,
+          0.001
+        ],
+        "n": 1
+      },
+      {
+        "feature": "AP_duration_half_width",
+        "val": [
+          0.5400000000019645,
+          0.001
+        ],
+        "n": 1
+      },
+      {
+        "feature": "AP_begin_width",
+        "val": [
+          1.1650000000042382,
+          0.001
+        ],
+        "n": 1
+      },
+      {
+        "feature": "mean_frequency",
+        "val": [
+          9.51112801976202,
+          0.001
+        ],
+        "n": 1
+      },
+      {
+        "feature": "burst_number",
+        "val": [
+          1.0,
+          0.001
+        ],
+        "n": 1
+      },
+      {
+        "feature": "voltage_base",
+        "val": [
+          -74.49217708333337,
+          0.31699454583279835
+        ],
+        "n": 3
+      },
+      {
+        "feature": "inv_time_to_first_spike",
+        "val": [
+          5.224660397116182,
+          7.388785592395305
+        ],
+        "n": 3
+      },
+      {
+        "feature": "inv_first_ISI",
+        "val": [
+          6.548788474108462,
+          9.261385477196793
+        ],
+        "n": 3
+      },
+      {
+        "feature": "inv_second_ISI",
+        "val": [
+          3.089280197702694,
+          4.368901953561786
+        ],
+        "n": 3
+      },
+      {
+        "feature": "inv_third_ISI",
+        "val": [
+          2.57400257399321,
+          3.6401893497244533
+        ],
+        "n": 3
+      },
+      {
+        "feature": "inv_fourth_ISI",
+        "val": [
+          1.920122887857838,
+          2.715463829431548
+        ],
+        "n": 3
+      },
+      {
+        "feature": "inv_fifth_ISI",
+        "val": [
+          0.0,
+          0.001
+        ],
+        "n": 3
+      },
+      {
+        "feature": "APlast_amp",
+        "val": [
+          52.68750564586895,
+          0.001
+        ],
+        "n": 1
+      },
+      {
+        "feature": "AP_begin_voltage",
+        "val": [
+          -55.62109584747781,
+          0.001
+        ],
+        "n": 1
+      },
+      {
+        "feature": "ISI_CV",
+        "val": [
+          0.2444231183223455,
+          0.001
+        ],
+        "n": 1
+      },
+      {
+        "feature": "ISI_log_slope",
+        "val": [
+          0.4145997646704295,
+          0.001
+        ],
+        "n": 1
+      },
+      {
+        "feature": "fast_AHP",
+        "val": [
+          15.83593503270023,
+          0.001
+        ],
+        "n": 1
+      },
+      {
+        "feature": "adaptation_index2",
+        "val": [
+          0.11824110698852659,
+          0.001
+        ],
+        "n": 1
+      },
+      {
+        "feature": "AHP_slow_time",
+        "val": [
+          0.10554874777572017,
+          0.001
+        ],
+        "n": 1
+      },
+      {
+        "feature": "doublet_ISI",
+        "val": [
+          50.90000000018517,
+          0.001
+        ],
+        "n": 1
+      },
+      {
+        "feature": "decay_time_constant_after_stim",
+        "val": [
+          1223.6367234040563,
+          1064.199384109525
+        ],
+        "n": 3
+      },
+      {
+        "feature": "mean_AP_amplitude",
+        "val": [
+          57.907816275515245,
+          0.001
+        ],
+        "n": 1
+      }
+    ]
+  },
+  "step_175": {
+    "soma": [
+      {
+        "feature": "AHP_depth",
+        "val": [
+          7.29691406287981,
+          0.001
+        ],
+        "n": 1
+      },
+      {
+        "feature": "AP1_amp",
+        "val": [
+          70.56250184980887,
+          0.001
+        ],
+        "n": 1
+      },
+      {
+        "feature": "AP2_amp",
+        "val": [
+          64.97656535316528,
+          0.001
+        ],
+        "n": 1
+      },
+      {
+        "feature": "AHP_time_from_peak",
+        "val": [
+          1.2850000000046748,
+          0.001
+        ],
+        "n": 1
+      },
+      {
+        "feature": "AP_amplitude",
+        "val": [
+          57.907816275515245,
+          0.001
+        ],
+        "n": 1
+      },
+      {
+        "feature": "AP_duration_half_width",
+        "val": [
+          0.5400000000019645,
+          0.001
+        ],
+        "n": 1
+      },
+      {
+        "feature": "AP_begin_width",
+        "val": [
+          1.1650000000042382,
+          0.001
+        ],
+        "n": 1
+      },
+      {
+        "feature": "mean_frequency",
+        "val": [
+          9.51112801976202,
+          0.001
+        ],
+        "n": 1
+      },
+      {
+        "feature": "burst_number",
+        "val": [
+          1.0,
+          0.001
+        ],
+        "n": 1
+      },
+      {
+        "feature": "voltage_base",
+        "val": [
+          -74.51739062499985,
+          0.3857734375012214
+        ],
+        "n": 2
+      },
+      {
+        "feature": "inv_time_to_first_spike",
+        "val": [
+          7.836990595674273,
+          7.836990595674273
+        ],
+        "n": 2
+      },
+      {
+        "feature": "inv_first_ISI",
+        "val": [
+          9.823182711162692,
+          9.823182711162692
+        ],
+        "n": 2
+      },
+      {
+        "feature": "inv_second_ISI",
+        "val": [
+          4.633920296554041,
+          4.633920296554041
+        ],
+        "n": 2
+      },
+      {
+        "feature": "inv_third_ISI",
+        "val": [
+          3.8610038609898147,
+          3.8610038609898147
+        ],
+        "n": 2
+      },
+      {
+        "feature": "inv_fourth_ISI",
+        "val": [
+          2.880184331786757,
+          2.880184331786757
+        ],
+        "n": 2
+      },
+      {
+        "feature": "inv_fifth_ISI",
+        "val": [
+          0.0,
+          0.001
+        ],
+        "n": 2
+      },
+      {
+        "feature": "APlast_amp",
+        "val": [
+          52.68750564586895,
+          0.001
+        ],
+        "n": 1
+      },
+      {
+        "feature": "AP_begin_voltage",
+        "val": [
+          -55.62109584747781,
+          0.001
+        ],
+        "n": 1
+      },
+      {
+        "feature": "ISI_CV",
+        "val": [
+          0.2444231183223455,
+          0.001
+        ],
+        "n": 1
+      },
+      {
+        "feature": "ISI_log_slope",
+        "val": [
+          0.4145997646704295,
+          0.001
+        ],
+        "n": 1
+      },
+      {
+        "feature": "fast_AHP",
+        "val": [
+          15.83593503270023,
+          0.001
+        ],
+        "n": 1
+      },
+      {
+        "feature": "adaptation_index2",
+        "val": [
+          0.11824110698852659,
+          0.001
+        ],
+        "n": 1
+      },
+      {
+        "feature": "AHP_slow_time",
+        "val": [
+          0.10554874777572017,
+          0.001
+        ],
+        "n": 1
+      },
+      {
+        "feature": "doublet_ISI",
+        "val": [
+          50.90000000018517,
+          0.001
+        ],
+        "n": 1
+      },
+      {
+        "feature": "decay_time_constant_after_stim",
+        "val": [
+          1594.3601424183746,
+          1134.2279019190285
+        ],
+        "n": 2
+      },
+      {
+        "feature": "mean_AP_amplitude",
+        "val": [
+          57.907816275515245,
+          0.001
+        ],
+        "n": 1
+      }
+    ]
+  },
+  "step_200": {
+    "soma": [
+      {
+        "feature": "AHP_depth",
+        "val": [
+          16.610724609896945,
+          29.689354270429877
+        ],
+        "n": 6
+      },
+      {
+        "feature": "AP1_amp",
+        "val": [
+          65.86067975629209,
+          0.9976827624230621
+        ],
+        "n": 6
+      },
+      {
+        "feature": "AHP_time_from_peak",
+        "val": [
+          1.0208333333370472,
+          0.4578975200745407
+        ],
+        "n": 6
+      },
+      {
+        "feature": "AP_amplitude",
+        "val": [
+          65.86067975629209,
+          0.9976827624230621
+        ],
+        "n": 6
+      },
+      {
+        "feature": "AP_duration_half_width",
+        "val": [
+          0.3916666666680915,
+          0.14481789330871656
+        ],
+        "n": 6
+      },
+      {
+        "feature": "AP_begin_width",
+        "val": [
+          1.0041666666703197,
+          0.21622551242293866
+        ],
+        "n": 6
+      },
+      {
+        "feature": "mean_frequency",
+        "val": [
+          13.533105215611798,
+          0.7620652636034922
+        ],
+        "n": 6
+      },
+      {
+        "feature": "voltage_base",
+        "val": [
+          -73.86593294270818,
+          0.3517475256773367
+        ],
+        "n": 6
+      },
+      {
+        "feature": "inv_time_to_first_spike",
+        "val": [
+          13.533105215611798,
+          0.7620652636034922
+        ],
+        "n": 6
+      },
+      {
+        "feature": "inv_first_ISI",
+        "val": [
+          0.0,
+          0.001
+        ],
+        "n": 6
+      },
+      {
+        "feature": "inv_second_ISI",
+        "val": [
+          0.0,
+          0.001
+        ],
+        "n": 6
+      },
+      {
+        "feature": "inv_third_ISI",
+        "val": [
+          0.0,
+          0.001
+        ],
+        "n": 6
+      },
+      {
+        "feature": "inv_fourth_ISI",
+        "val": [
+          0.0,
+          0.001
+        ],
+        "n": 6
+      },
+      {
+        "feature": "inv_fifth_ISI",
+        "val": [
+          0.0,
+          0.001
+        ],
+        "n": 6
+      },
+      {
+        "feature": "APlast_amp",
+        "val": [
+          65.86067975629209,
+          0.9976827624230621
+        ],
+        "n": 6
+      },
+      {
+        "feature": "AP_begin_voltage",
+        "val": [
+          -55.70963780404757,
+          0.44511614486688317
+        ],
+        "n": 6
+      },
+      {
+        "feature": "decay_time_constant_after_stim",
+        "val": [
+          2115.299109425509,
+          3505.657127080858
+        ],
+        "n": 6
+      },
+      {
+        "feature": "mean_AP_amplitude",
+        "val": [
+          65.86067975629209,
+          0.9976827624230621
+        ],
+        "n": 6
+      }
+    ]
+  },
+  "step_225": {
+    "soma": [
+      {
+        "feature": "AHP_depth",
+        "val": [
+          7.791198742258951,
+          0.001
+        ],
+        "n": 1
+      },
+      {
+        "feature": "AP1_amp",
+        "val": [
+          68.37500561118026,
+          0.001
+        ],
+        "n": 1
+      },
+      {
+        "feature": "AP2_amp",
+        "val": [
+          65.6562499199321,
+          0.001
+        ],
+        "n": 1
+      },
+      {
+        "feature": "AHP_time_from_peak",
+        "val": [
+          1.3156250000047862,
+          0.001
+        ],
+        "n": 1
+      },
+      {
+        "feature": "AP_amplitude",
+        "val": [
+          55.985352703130445,
+          0.001
+        ],
+        "n": 1
+      },
+      {
+        "feature": "AP_duration_half_width",
+        "val": [
+          0.4781250000017394,
+          0.001
+        ],
+        "n": 1
+      },
+      {
+        "feature": "AP_begin_width",
+        "val": [
+          1.1718750000042633,
+          0.001
+        ],
+        "n": 1
+      },
+      {
+        "feature": "mean_frequency",
+        "val": [
+          16.863406408059564,
+          0.001
+        ],
+        "n": 1
+      },
+      {
+        "feature": "burst_number",
+        "val": [
+          1.0,
+          0.001
+        ],
+        "n": 1
+      },
+      {
+        "feature": "voltage_base",
+        "val": [
+          -74.99041796875049,
+          0.001
+        ],
+        "n": 1
+      },
+      {
+        "feature": "inv_time_to_first_spike",
+        "val": [
+          21.276595744940646,
+          0.001
+        ],
+        "n": 1
+      },
+      {
+        "feature": "inv_first_ISI",
+        "val": [
+          34.7222222220959,
+          0.001
+        ],
+        "n": 1
+      },
+      {
+        "feature": "inv_second_ISI",
+        "val": [
+          23.310023309938508,
+          0.001
+        ],
+        "n": 1
+      },
+      {
+        "feature": "inv_third_ISI",
+        "val": [
+          19.26782273596073,
+          0.001
+        ],
+        "n": 1
+      },
+      {
+        "feature": "inv_fourth_ISI",
+        "val": [
+          19.379844961169805,
+          0.001
+        ],
+        "n": 1
+      },
+      {
+        "feature": "inv_fifth_ISI",
+        "val": [
+          10.235414534251403,
+          0.001
+        ],
+        "n": 1
+      },
+      {
+        "feature": "APlast_amp",
+        "val": [
+          50.2187508575415,
+          0.001
+        ],
+        "n": 1
+      },
+      {
+        "feature": "AP_begin_voltage",
+        "val": [
+          -51.54394577682354,
+          0.001
+        ],
+        "n": 1
+      },
+      {
+        "feature": "ISI_CV",
+        "val": [
+          0.32756753348272094,
+          0.001
+        ],
+        "n": 1
+      },
+      {
+        "feature": "ISI_log_slope",
+        "val": [
+          0.4034773644118152,
+          0.001
+        ],
+        "n": 1
+      },
+      {
+        "feature": "fast_AHP",
+        "val": [
+          15.650669648766625,
+          0.001
+        ],
+        "n": 1
+      },
+      {
+        "feature": "adaptation_index2",
+        "val": [
+          0.06826278976263198,
+          0.001
+        ],
+        "n": 1
+      },
+      {
+        "feature": "AHP_slow_time",
+        "val": [
+          0.11138247768563543,
+          0.001
+        ],
+        "n": 1
+      },
+      {
+        "feature": "doublet_ISI",
+        "val": [
+          28.800000000104774,
+          0.001
+        ],
+        "n": 1
+      },
+      {
+        "feature": "decay_time_constant_after_stim",
+        "val": [
+          1092.7357443379065,
+          0.001
+        ],
+        "n": 1
+      },
+      {
+        "feature": "mean_AP_amplitude",
+        "val": [
+          55.98535270313044,
+          0.001
+        ],
+        "n": 1
+      }
+    ]
+  },
+  "step_250": {
+    "soma": [
+      {
+        "feature": "AHP_depth",
+        "val": [
+          7.791198742258951,
+          0.001
+        ],
+        "n": 1
+      },
+      {
+        "feature": "AP1_amp",
+        "val": [
+          68.37500561118026,
+          0.001
+        ],
+        "n": 1
+      },
+      {
+        "feature": "AP2_amp",
+        "val": [
+          65.6562499199321,
+          0.001
+        ],
+        "n": 1
+      },
+      {
+        "feature": "AHP_time_from_peak",
+        "val": [
+          1.3156250000047862,
+          0.001
+        ],
+        "n": 1
+      },
+      {
+        "feature": "AP_amplitude",
+        "val": [
+          55.985352703130445,
+          0.001
+        ],
+        "n": 1
+      },
+      {
+        "feature": "AP_duration_half_width",
+        "val": [
+          0.4781250000017394,
+          0.001
+        ],
+        "n": 1
+      },
+      {
+        "feature": "AP_begin_width",
+        "val": [
+          1.1718750000042633,
+          0.001
+        ],
+        "n": 1
+      },
+      {
+        "feature": "mean_frequency",
+        "val": [
+          16.863406408059564,
+          0.001
+        ],
+        "n": 1
+      },
+      {
+        "feature": "burst_number",
+        "val": [
+          1.0,
+          0.001
+        ],
+        "n": 1
+      },
+      {
+        "feature": "voltage_base",
+        "val": [
+          -74.99041796875049,
+          0.001
+        ],
+        "n": 1
+      },
+      {
+        "feature": "inv_time_to_first_spike",
+        "val": [
+          21.276595744940646,
+          0.001
+        ],
+        "n": 1
+      },
+      {
+        "feature": "inv_first_ISI",
+        "val": [
+          34.7222222220959,
+          0.001
+        ],
+        "n": 1
+      },
+      {
+        "feature": "inv_second_ISI",
+        "val": [
+          23.310023309938508,
+          0.001
+        ],
+        "n": 1
+      },
+      {
+        "feature": "inv_third_ISI",
+        "val": [
+          19.26782273596073,
+          0.001
+        ],
+        "n": 1
+      },
+      {
+        "feature": "inv_fourth_ISI",
+        "val": [
+          19.379844961169805,
+          0.001
+        ],
+        "n": 1
+      },
+      {
+        "feature": "inv_fifth_ISI",
+        "val": [
+          10.235414534251403,
+          0.001
+        ],
+        "n": 1
+      },
+      {
+        "feature": "APlast_amp",
+        "val": [
+          50.2187508575415,
+          0.001
+        ],
+        "n": 1
+      },
+      {
+        "feature": "AP_begin_voltage",
+        "val": [
+          -51.54394577682354,
+          0.001
+        ],
+        "n": 1
+      },
+      {
+        "feature": "ISI_CV",
+        "val": [
+          0.32756753348272094,
+          0.001
+        ],
+        "n": 1
+      },
+      {
+        "feature": "ISI_log_slope",
+        "val": [
+          0.4034773644118152,
+          0.001
+        ],
+        "n": 1
+      },
+      {
+        "feature": "fast_AHP",
+        "val": [
+          15.650669648766625,
+          0.001
+        ],
+        "n": 1
+      },
+      {
+        "feature": "adaptation_index2",
+        "val": [
+          0.06826278976263198,
+          0.001
+        ],
+        "n": 1
+      },
+      {
+        "feature": "AHP_slow_time",
+        "val": [
+          0.11138247768563543,
+          0.001
+        ],
+        "n": 1
+      },
+      {
+        "feature": "doublet_ISI",
+        "val": [
+          28.800000000104774,
+          0.001
+        ],
+        "n": 1
+      },
+      {
+        "feature": "decay_time_constant_after_stim",
+        "val": [
+          1092.7357443379065,
+          0.001
+        ],
+        "n": 1
+      },
+      {
+        "feature": "mean_AP_amplitude",
+        "val": [
+          55.98535270313044,
+          0.001
+        ],
+        "n": 1
+      }
+    ]
+  },
+  "step_300": {
+    "soma": [
+      {
+        "feature": "AHP_depth",
+        "val": [
+          9.913204062348703,
+          0.001
+        ],
+        "n": 1
+      },
+      {
+        "feature": "AP1_amp",
+        "val": [
+          67.81250571886302,
+          0.001
+        ],
+        "n": 1
+      },
+      {
+        "feature": "AP2_amp",
+        "val": [
+          65.24999996704872,
+          0.001
+        ],
+        "n": 1
+      },
+      {
+        "feature": "AHP_time_from_peak",
+        "val": [
+          1.3711538461588344,
+          0.001
+        ],
+        "n": 1
+      },
+      {
+        "feature": "AP_amplitude",
+        "val": [
+          48.57692535095702,
+          0.001
+        ],
+        "n": 1
+      },
+      {
+        "feature": "AP_duration_half_width",
+        "val": [
+          0.6096153846176023,
+          0.001
+        ],
+        "n": 1
+      },
+      {
+        "feature": "AP_begin_width",
+        "val": [
+          1.2269230769275405,
+          0.001
+        ],
+        "n": 1
+      },
+      {
+        "feature": "mean_frequency",
+        "val": [
+          13.35113484642359,
+          0.001
+        ],
+        "n": 1
+      },
+      {
+        "feature": "burst_number",
+        "val": [
+          3.0,
+          0.001
+        ],
+        "n": 1
+      },
+      {
+        "feature": "voltage_base",
+        "val": [
+          -74.94685937499949,
+          0.001
+        ],
+        "n": 1
+      },
+      {
+        "feature": "inv_time_to_first_spike",
+        "val": [
+          25.252525252908384,
+          0.001
+        ],
+        "n": 1
+      },
+      {
+        "feature": "inv_first_ISI",
+        "val": [
+          47.846889951979044,
+          0.001
+        ],
+        "n": 1
+      },
+      {
+        "feature": "inv_second_ISI",
+        "val": [
+          39.52569169946095,
+          0.001
+        ],
+        "n": 1
+      },
+      {
+        "feature": "inv_third_ISI",
+        "val": [
+          37.31343283568515,
+          0.001
+        ],
+        "n": 1
+      },
+      {
+        "feature": "inv_fourth_ISI",
+        "val": [
+          26.2467191600095,
+          0.001
+        ],
+        "n": 1
+      },
+      {
+        "feature": "inv_fifth_ISI",
+        "val": [
+          28.985507246271364,
+          0.001
+        ],
+        "n": 1
+      },
+      {
+        "feature": "APlast_amp",
+        "val": [
+          36.37500368012228,
+          0.001
+        ],
+        "n": 1
+      },
+      {
+        "feature": "AP_begin_voltage",
+        "val": [
+          -51.018416730109216,
+          0.001
+        ],
+        "n": 1
+      },
+      {
+        "feature": "ISI_CV",
+        "val": [
+          0.963846493795634,
+          0.001
+        ],
+        "n": 1
+      },
+      {
+        "feature": "ISI_log_slope",
+        "val": [
+          0.8082457699579656,
+          0.001
+        ],
+        "n": 1
+      },
+      {
+        "feature": "fast_AHP",
+        "val": [
+          15.894230561990875,
+          0.001
+        ],
+        "n": 1
+      },
+      {
+        "feature": "adaptation_index2",
+        "val": [
+          0.05996321950583061,
+          0.001
+        ],
+        "n": 1
+      },
+      {
+        "feature": "AHP_slow_time",
+        "val": [
+          0.12041041579978674,
+          0.001
+        ],
+        "n": 1
+      },
+      {
+        "feature": "doublet_ISI",
+        "val": [
+          20.900000000076034,
+          0.001
+        ],
+        "n": 1
+      },
+      {
+        "feature": "decay_time_constant_after_stim",
+        "val": [
+          138.08040427189184,
+          0.001
+        ],
+        "n": 1
+      },
+      {
+        "feature": "mean_AP_amplitude",
+        "val": [
+          48.57692535095702,
+          0.001
+        ],
+        "n": 1
+      }
+    ]
+  }
+}

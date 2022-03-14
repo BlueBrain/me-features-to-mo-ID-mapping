@@ -1,0 +1,92 @@
+{
+  "step_80": {
+    "holding": {
+      "delay": 0.0,
+      "amp": 0.0,
+      "duration": 8020.0,
+      "totduration": 8020.0
+    },
+    "step": {
+      "delay": 1000.0,
+      "amp": 0.13000000019868216,
+      "thresh_perc": 76.47058754781264,
+      "duration": 1000.0,
+      "totduration": 8020.0
+    }
+  },
+  "step_100": {
+    "holding": {
+      "delay": 0.0,
+      "amp": 0.0,
+      "duration": 6565.454545454545,
+      "totduration": 6565.454545454545
+    },
+    "step": {
+      "delay": 1000.0,
+      "amp": 0.1881818202408877,
+      "thresh_perc": 110.69518721264913,
+      "duration": 1000.0,
+      "totduration": 6565.454545454545
+    }
+  },
+  "step_125": {
+    "holding": {
+      "delay": 0.0,
+      "amp": 0.0,
+      "duration": 6353.333333333333,
+      "totduration": 6353.333333333333
+    },
+    "step": {
+      "delay": 1000.0,
+      "amp": 0.20833333664470247,
+      "thresh_perc": 122.54902026667953,
+      "duration": 1000.0,
+      "totduration": 6353.333333333333
+    }
+  },
+  "step_150": {
+    "holding": {
+      "delay": 0.0,
+      "amp": 0.0,
+      "duration": 6565.454545454545,
+      "totduration": 6565.454545454545
+    },
+    "step": {
+      "delay": 1000.0,
+      "amp": 0.2499999932267449,
+      "thresh_perc": 147.0588179983108,
+      "duration": 1000.0,
+      "totduration": 6565.454545454545
+    }
+  },
+  "step_175": {
+    "holding": {
+      "delay": 0.0,
+      "amp": 0.0,
+      "duration": 6686.666666666667,
+      "totduration": 6686.666666666667
+    },
+    "step": {
+      "delay": 1000.0,
+      "amp": 0.2855555448267195,
+      "thresh_perc": 167.97384813124296,
+      "duration": 1000.0,
+      "totduration": 6686.666666666667
+    }
+  },
+  "step_200": {
+    "holding": {
+      "delay": 0.0,
+      "amp": 0.0,
+      "duration": 6686.666666666667,
+      "totduration": 6686.666666666667
+    },
+    "step": {
+      "delay": 1000.0,
+      "amp": 0.31000000238418574,
+      "thresh_perc": 182.35294066085945,
+      "duration": 1000.0,
+      "totduration": 6686.666666666667
+    }
+  }
+}

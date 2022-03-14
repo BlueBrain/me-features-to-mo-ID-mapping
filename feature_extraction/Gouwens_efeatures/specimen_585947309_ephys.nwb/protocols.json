@@ -1,0 +1,92 @@
+{
+  "step_80": {
+    "holding": {
+      "delay": 0.0,
+      "amp": 0.0,
+      "duration": 7353.333333333333,
+      "totduration": 7353.333333333333
+    },
+    "step": {
+      "delay": 1000.0,
+      "amp": 0.12666666507720947,
+      "thresh_perc": 84.44444002928574,
+      "duration": 1000.0,
+      "totduration": 7353.333333333333
+    }
+  },
+  "step_100": {
+    "holding": {
+      "delay": 0.0,
+      "amp": 0.0,
+      "duration": 6686.666666666667,
+      "totduration": 6686.666666666667
+    },
+    "step": {
+      "delay": 1000.0,
+      "amp": 0.15333333280351424,
+      "thresh_perc": 102.22221780706352,
+      "duration": 1000.0,
+      "totduration": 6686.666666666667
+    }
+  },
+  "step_125": {
+    "holding": {
+      "delay": 0.0,
+      "amp": 0.0,
+      "duration": 6565.454545454545,
+      "totduration": 6565.454545454545
+    },
+    "step": {
+      "delay": 1000.0,
+      "amp": 0.18272727321494706,
+      "thresh_perc": 121.81817730267858,
+      "duration": 1000.0,
+      "totduration": 6565.454545454545
+    }
+  },
+  "step_150": {
+    "holding": {
+      "delay": 0.0,
+      "amp": 0.0,
+      "duration": 6877.142857142857,
+      "totduration": 6877.142857142857
+    },
+    "step": {
+      "delay": 1000.0,
+      "amp": 0.21285714634827207,
+      "thresh_perc": 141.9047585933929,
+      "duration": 1000.0,
+      "totduration": 6877.142857142857
+    }
+  },
+  "step_175": {
+    "holding": {
+      "delay": 0.0,
+      "amp": 0.0,
+      "duration": 8020.0,
+      "totduration": 8020.0
+    },
+    "step": {
+      "delay": 1000.0,
+      "amp": 0.26999999086062115,
+      "thresh_perc": 179.99998675452392,
+      "duration": 1000.0,
+      "totduration": 8020.0
+    }
+  },
+  "step_200": {
+    "holding": {
+      "delay": 0.0,
+      "amp": 0.0,
+      "duration": 8020.0,
+      "totduration": 8020.0
+    },
+    "step": {
+      "delay": 1000.0,
+      "amp": 0.28999999165534973,
+      "thresh_perc": 193.33332008785723,
+      "duration": 1000.0,
+      "totduration": 8020.0
+    }
+  }
+}

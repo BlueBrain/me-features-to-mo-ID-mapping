@@ -1,0 +1,16 @@
+{
+  "holding_current": [
+    0.0,
+    0.0
+  ],
+  "threshold_current": [
+    0.12999999523162842,
+    0.0
+  ],
+  "all_holding_current": {
+    "specimen_561325425_ephys.nwb": 0.0
+  },
+  "all_threshold_current": {
+    "specimen_561325425_ephys.nwb": 0.12999999523162842
+  }
+}
